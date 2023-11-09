@@ -317,10 +317,6 @@ def plot_logistic_regression_results(results):
     plt.xticks(rotation=45)
     plt.show()
 
-# Todo:
-# grafieken (maakt niet uit wat) confusion matrix
-# vergelijken van hyper params, met grafieken.
-
 
 if __name__ == '__main__':
     data_frame = load_data_frame()
